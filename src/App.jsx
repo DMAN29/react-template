@@ -3,7 +3,7 @@ import Headers from "./header/Headers";
 import Sidebar from "./Sidebar/Sidebar";
 import MainContent from "./MainContent/MainContent";
 import ProfileDetails from "./ProfileDetails/ProfileDetails";
-import "./app.css";
+import "./App.css";
 import Diagnostic from "./Diagnostic/Diagnostic";
 import Labresult from "./lab_result/Labresult";
 const App = () => {

@@ -12,6 +12,7 @@ const App = () => {
   const [diagnosis_history, setDiagnosis_history] = useState([]);
   const [diagnostic_list, setDiagnostic_list] = useState([]);
   const [person, setPerson] = useState({});
+  const [lab_result, setLab_result] = useState([]);
 
   useEffect(() => {
     const url = "https://fedskillstest.coalitiontechnologies.workers.dev";
@@ -35,9 +36,10 @@ const App = () => {
       .then((data) => {
         setData(data);
         if (data && data.length > 0) {
-          setDiagnosis_history(data[0].diagnosis_history);
-          setDiagnostic_list(data[0].diagnostic_list);
-          setPerson(data[0]);
+          setDiagnosis_history(data[3].diagnosis_history);
+          setDiagnostic_list(data[3].diagnostic_list);
+          setPerson(data[3]);
+          setLab_result(data[3].lab_results);
         }
       })
       .catch((error) => {
@@ -71,7 +73,7 @@ const App = () => {
             <ProfileDetails person={person || {}} />
           </div>
           <div>
-            <Labresult />
+            <Labresult lab_result={lab_result || []} />
           </div>
         </div>
       </div>

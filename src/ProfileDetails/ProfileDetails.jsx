@@ -5,7 +5,6 @@ function ProfileDetails({ person }) {
   return (
     <div className="profile-details">
       <img src="profile.png" alt="Profile" className="profile-pic" />
-      {console.log(person)}
       <div className="h">
         <h1>{person.name}</h1>
       </div>

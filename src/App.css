@@ -1,0 +1,36 @@
+.sidebar {
+  /* Layout Properties */
+  width: 22%;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+
+}
+
+.main-container {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContent {
+  width: 50%;
+  /* UI Properties */
+  opacity: 1;
+}
+
+.profileDetails {
+  width: 22%;
+
+}
+
+.main-content-div {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.diagnosis {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px;
+  margin-top: 16px;
+}

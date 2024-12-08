@@ -1,0 +1,93 @@
+h2 {
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    overflow-y: auto;
+
+    max-height: 100vh;
+
+    overflow-y: scroll;
+}
+
+
+
+ul li {
+
+    padding: 0.75rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    cursor: pointer;
+
+}
+
+
+
+ul li:hover {
+
+    background-color: #D8FCF7;
+
+}
+
+.heading {
+    padding: 0px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-cls {
+    /* Layout Properties */
+    top: 150px;
+    left: 347px;
+    width: 18px;
+    height: 18px;
+    /* UI Properties */
+    background: transparent url('img/search_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: auto 0px;
+}
+
+.profile_picture {
+    top: 215px;
+    left: 38px;
+    width: 48px;
+    height: 48px;
+    /* UI Properties */
+    background: transparent url('img/Layer 8.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.data {
+    display: flex;
+}
+
+.dots {
+    rotate: 90deg;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.desc {
+    color: #707070;
+}
+
+.details {
+    margin: auto;
+}

@@ -1,0 +1,68 @@
+.lab-results-container {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.results-list {
+    max-height: 150px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.results-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.results-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.results-list::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item:hover {
+    background-color: #f1f5f9;
+}
+
+.download-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #2a4365;
+}
+
+.download-btn:hover {
+    color: #1d3557;
+}
+
+.download-icon {
+    font-size: 1.2em;
+}

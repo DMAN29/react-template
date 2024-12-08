@@ -1,0 +1,41 @@
+.profile-details {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    margin-top: 32px;
+}
+
+.mini-content {
+    display: flex;
+    margin: 24px 20px;
+
+}
+
+.h {
+    margin-bottom: 28px;
+}
+
+.mini-content img {
+    width: 42px;
+    height: 42px;
+}
+
+.mini-right {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.mini-btn {
+    font-weight: bold;
+    padding: 11px;
+    margin: 10px 60px;
+    border-radius: 41px;
+    background-color: #01F0D0;
+    cursor: pointer;
+}
